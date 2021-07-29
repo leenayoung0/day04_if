@@ -23,7 +23,11 @@ public class Ex06_while {
 			System.out.print("이름 입력 : ");
 			name = input.next();
 			System.out.println("당신의 이름은 "+name+" 이군요");
+		
+			input.close();
 		}
+		
+		
 	}
 
 }
